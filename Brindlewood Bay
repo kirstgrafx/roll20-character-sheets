@@ -1,0 +1,287 @@
+<!-- Brindlewood Bay Character Sheet for Roll 20 version 1.00 -->
+<!-- Designed by Michael Lee, 24 April, 2021 -->
+<b>Name</b><br>
+<!-- Note: Did not want to do a drop down list. People can choose a name.-->
+<input type="text" name="attr_name"><br>
+
+<br><b>Style</b><br>
+<!-- Note: could not do write in as part of drop down. -->
+<select name="attr_style">
+    <option value=""><i>Pick one or make up your own.</i></option>
+    <option value="Alexis Carrington Colby"> Alexis Carrington Colby </option>
+    <option value="All the Cardigans"> All the Cardigans </option>
+    <option value="Blouse Barn"> Blouse Barn </option>
+    <option value="Dorothy Zbornak"> Dorothy Zbornak </option>
+    <option value="Goin’ Fishin"> Goin’ Fishin </option>
+    <option value="Hippy Dippy"> Hippy Dippy </option>
+    <option value="Jackie O"> Jackie O </option>
+    <option value="Jackie O"> Martha's Vineyard </option>
+    <option value="Office Hours"> Office Hours </option>
+    <option value="Speed Walkin’"> Speed Walkin’ </option>
+    <option value="Up in Pumps"> Up in Pumps </option>
+</select><br>
+<input type="text" name="attr_style"><br>
+
+<br><b>Cozy Activity</b><br>
+<i>No two Mavens can have the same <b>Cozy Activity.</b></i><br>
+<!-- Note: -->
+<select name="attr_cozy">
+    <option value=""><i>Pick one or make up your own.</i></option>
+    <option value="Antiques & Furniture"> Antiques & Furniture </option>
+    <option value="Baking"> Baking </option>
+    <option value="Birding"> Birding </option>
+    <option value="Charity Events"> Charity Events </option>
+    <option value="Collecting"> Collecting (Stamps, Buttons, Pressed Flowers </option>
+    <option value="Cooking"> Cooking </option>
+    <option value="Gardening"> Gardening </option>
+    <option value="Knitting"> Knitting </option>
+    <option value="Painting"> Painting </option>
+    <option value="Pottery"> Pottery </option>
+    <option value="Quilting"> Quilting </option>
+    <option value="Scrapbooking"> Scrapbooking </option>
+</select><br>
+<input type="text" name="attr_cozy"> <br>
+
+<br><b>Abilities</b><br>
+<!-- Note: did max of +3/-2 for ability improvement/reduction -->
+<i>During character creation, add 1 to any single ability.</i><br>
+<b>Vitality</b> <br>
+<i>For strength, dexterity, endurance, athleticism, or raw physicality.</i><br>
+<select name="attr_vitality">
+    <option value="v0">0</option>
+    <option value="v1">1</option>
+    <option value="v2">2</option>
+    <option value="v3">3</option>
+    <option value="v4">-1</option>
+    <option value="v5">-2</option>
+</select><br>
+<b>Composure</b><br>
+<i>For a steady hand, calm disposition, or intense concentration; or if trying to avoid a fear based reaction.</i><br>
+<select name="attr_composure"> 
+    <option value="c0">1</option>
+    <option value="c1">2</option>
+    <option value="c2">3</option>
+    <option value="c3">4</option>
+    <option value="c4">0</option>
+    <option value="c5">-1</option>
+</select><br>
+<b>Reason</b><br>
+<i>For studying books, researching a problem, examining a crime scene, or otherwise engaging their mental faculty.</i><br>
+<select name="attr_reason">
+    <option value="r0">1</option>
+    <option value="r1">2</option>
+    <option value="r2">3</option>
+    <option value="r3">4</option>
+    <option value="r4">0</option>
+    <option value="r5">-1</option>
+</select><br>
+<b>Presence</b><br>
+<i>For trying to charm someone, intimidate someone, or capture someone’s imagination.</i><br>
+<select name="attr_presence"> 
+    <option value="p0">0</option>
+    <option value="p1">1</option>
+    <option value="p2">2</option>
+    <option value="p3">3</option>
+    <option value="p4">-1</option>
+    <option value="p5">-2</option>
+</select><br>
+<b>Sensitivity</b><br>
+<i>For supernatural checks.</i><br>
+<select name="attr_sensitivity"> 
+    <option value="s0">-1</option>
+    <option value="s1">0</option>
+    <option value="s2">1</option>
+    <option value="s3">2</option>
+    <option value="s4">-2</option>
+    <option value="s5">-3</option>
+</select><br>
+
+<br><b>XP Track</b><br>
+<!-- Note: -->
+<input type="checkbox" name="attr_xpCheck1"> 
+<input type="checkbox" name="attr_xpCheck2"> 
+<input type="checkbox" name="attr_xpCheck3"> 
+<input type="checkbox" name="attr_xpCheck4"> 
+<input type="checkbox" name="attr_xpCheck5">
+
+<br><br><b>Conditions</b><br>
+<!-- Note: -->
+<input type="text" name="attr_condition1"><br>
+<input type="text" name="attr_condition2"><br>
+<input type="text" name="attr_condition3"><br>
+
+<br><b>End of Session</b><br>
+<!-- Note: -->
+<i>The first is always marked. At the beginning of a session, mark two more (three total marked).</i><br>
+&#11035; Did the Murder Mavens solve a mystery?<br>
+<input type="checkbox" name="attr_undermine"> Did you secretly undermine the authority of a local official?<br>
+<input type="checkbox" name="attr_wisdom"> Did you share your wisdom with a young person?<br>
+<input type="checkbox" name="attr_memory"> Did you share a memory of a late family member?<br>
+<input type="checkbox" name="attr_half"> Did you behave like a woman half your age?<br>
+<input type="checkbox" name="attr_dote"> Did you dote on someone?<br>
+<input type="checkbox" name="attr_stillGotIt"> Did you show someone that you’ve “still got it?”<br>
+
+<br><b>Advancements</b><br>
+<!-- Note: -->
+<input type="checkbox" name="attr_adv1"> Increase an <b>Ability</b> modifier by 1 (max +3).<br>
+<input type="checkbox" name="attr_adv2"> Increase an <b>Ability</b> modifier by 1 (max +3).<br> 
+<input type="checkbox" name="attr_adv3"> Choose an additional <b>Maven Move</b>.<br>
+<input type="checkbox" name="attr_adv4"> Choose an additional <b>Maven Move</b>.<br>
+<input type="checkbox" name="attr_adv5"> Unmark all the items in your <b>Cozy Little Place</b>.<br>
+
+<br><b>Maven Moves</b><br>
+<!-- Note: did not include Fox Mulder and Dale Cooper in starting selection> They are in the other 4 -->
+<i>During character creation, select one move from the <b>Maven Moves</b> sheet.<br>
+<b>Dale Cooper</b> and <b>Fox Mulder</b> are not allowed for this <b>Starting</b> move selection.<br>
+No two Mavens can have the same <b>Maven Move</b> in the first game.</i><br>
+<select name="attr_mavenMove1">
+    <option value="Select">Starting</option>
+    <option value="B.A. Baracus">B.A. Baracus</option>
+    <option value="Frank Columbo">Frank Columbo</option>
+    <option value="Sonny Crockett">Sonny Crockett</option>
+    <option value="Frank Dowling">Frank Dowling</option>
+    <option value="Tom Hanson">Tom Hanson</option>
+    <option value="Milton Hardcastle">Milton Hardcastle</option>
+    <option value="Jonathan Hart">Jonathan Hart</option>
+    <option value="Angus MacGyver">Angus MacGyver</option>
+    <option value="Thomas Magnum">Thomas Magnum</option>
+    <option value="Michael Knight">Michael Knight</option>
+    <option value="Rick & A.J.">Rick & A.J.</option>
+    <option value="R. Quincy">R. Quincy</option>
+    <option value="Jim Rockford">Jim Rockford</option>
+    <option value="Scarecrow">Scarecrow</option>
+    <option value="Colt Seavers">Colt Seavers</option>
+    <option value="Gordon Shumway">Gordon Shumway</option>
+    <option value="Remington Steele">Remington Steele</option>
+</select><br>
+<select name="attr_mavenMove2">
+    <option value="Select"> </option>
+    <option value="B.A. Baracus">B.A. Baracus</option>
+    <option value="Frank Columbo">Frank Columbo</option>
+    <option value="Dale Cooper">Dale Cooper</option>
+    <option value="Sonny Crockett">Sonny Crockett</option>
+    <option value="Frank Dowling">Frank Dowling</option>
+    <option value="Tom Hanson">Tom Hanson</option>
+    <option value="Milton Hardcastle">Milton Hardcastle</option>
+    <option value="Jonathan Hart">Jonathan Hart</option>
+    <option value="Angus MacGyver">Angus MacGyver</option>
+    <option value="Thomas Magnum">Thomas Magnum</option>
+    <option value="Fox Mulder">Fox Mulder</option>
+    <option value="Michael Knight">Michael Knight</option>
+    <option value="Rick & A.J.">Rick & A.J.</option>
+    <option value="R. Quincy">R. Quincy</option>
+    <option value="Jim Rockford">Jim Rockford</option>
+    <option value="Scarecrow">Scarecrow</option>
+    <option value="Colt Seavers">Colt Seavers</option>
+    <option value="Gordon Shumway">Gordon Shumway</option>
+    <option value="Remington Steele">Remington Steele</option>
+</select><br>
+<select name="attr_mavenMove3">
+    <option value="Select"></option>
+    <option value="B.A. Baracus">B.A. Baracus</option>
+    <option value="Frank Columbo">Frank Columbo</option>
+    <option value="Dale Cooper">Dale Cooper</option>
+    <option value="Sonny Crockett">Sonny Crockett</option>
+    <option value="Frank Dowling">Frank Dowling</option>
+    <option value="Tom Hanson">Tom Hanson</option>
+    <option value="Milton Hardcastle">Milton Hardcastle</option>
+    <option value="Jonathan Hart">Jonathan Hart</option>
+    <option value="Angus MacGyver">Angus MacGyver</option>
+    <option value="Thomas Magnum">Thomas Magnum</option>
+    <option value="Fox Mulder">Fox Mulder</option>
+    <option value="Michael Knight">Michael Knight</option>
+    <option value="Rick & A.J.">Rick & A.J.</option>
+    <option value="R. Quincy">R. Quincy</option>
+    <option value="Jim Rockford">Jim Rockford</option>
+    <option value="Scarecrow">Scarecrow</option>
+    <option value="Colt Seavers">Colt Seavers</option>
+    <option value="Gordon Shumway">Gordon Shumway</option>
+    <option value="Remington Steele">Remington Steele</option>
+</select><br>
+<select name="attr_mavenMove4">
+    <option value="Select"></option>
+    <option value="B.A. Baracus">B.A. Baracus</option>
+    <option value="Frank Columbo">Frank Columbo</option>
+    <option value="Dale Cooper">Dale Cooper</option>
+    <option value="Sonny Crockett">Sonny Crockett</option>
+    <option value="Frank Dowling">Frank Dowling</option>
+    <option value="Tom Hanson">Tom Hanson</option>
+    <option value="Milton Hardcastle">Milton Hardcastle</option>
+    <option value="Jonathan Hart">Jonathan Hart</option>
+    <option value="Angus MacGyver">Angus MacGyver</option>
+    <option value="Thomas Magnum">Thomas Magnum</option>
+    <option value="Fox Mulder">Fox Mulder</option>
+    <option value="Michael Knight">Michael Knight</option>
+    <option value="Rick & A.J.">Rick & A.J.</option>
+    <option value="R. Quincy">R. Quincy</option>
+    <option value="Jim Rockford">Jim Rockford</option>
+    <option value="Scarecrow">Scarecrow</option>
+    <option value="Colt Seavers">Colt Seavers</option>
+    <option value="Gordon Shumway">Gordon Shumway</option>
+    <option value="Remington Steele">Remington Steele</option>
+</select><br>
+<select name="attr_mavenMove5">
+    <option value="Select"></option>
+    <option value="B.A. Baracus">B.A. Baracus</option>
+    <option value="Frank Columbo">Frank Columbo</option>
+    <option value="Dale Cooper">Dale Cooper</option>
+    <option value="Sonny Crockett">Sonny Crockett</option>
+    <option value="Frank Dowling">Frank Dowling</option>
+    <option value="Tom Hanson">Tom Hanson</option>
+    <option value="Milton Hardcastle">Milton Hardcastle</option>
+    <option value="Jonathan Hart">Jonathan Hart</option>
+    <option value="Angus MacGyver">Angus MacGyver</option>
+    <option value="Thomas Magnum">Thomas Magnum</option>
+    <option value="Fox Mulder">Fox Mulder</option>
+    <option value="Michael Knight">Michael Knight</option>
+    <option value="Rick & A.J.">Rick & A.J.</option>
+    <option value="R. Quincy">R. Quincy</option>
+    <option value="Jim Rockford">Jim Rockford</option>
+    <option value="Scarecrow">Scarecrow</option>
+    <option value="Colt Seavers">Colt Seavers</option>
+    <option value="Gordon Shumway">Gordon Shumway</option>
+    <option value="Remington Steele">Remington Steele</option>
+</select><br>
+
+<br><b>Crown of the Queen</b><br>
+<!-- Note: -->
+<i>When you put on this Crown, mark and narrate any you wish.</i><br>
+<input type="checkbox" name="attr_Queen1"> A flashback of your fondest memory of your late partner.<br>
+<input type="checkbox" name="attr_Queen2"> A flashback showing how you were an imperfect sister or daughter.<br>
+<input type="checkbox" name="attr_Queen3"> A flashback showing how you were an imperfect mother.<br>
+<input type="checkbox" name="attr_Queen4"> A flashback of your fondest memory with one of your children.<br>
+<input type="checkbox" name="attr_Queen5"> A scene in the present day showing a private side of you very few get to see.<br> 
+<input type="checkbox" name="attr_Queen6"> A scene in the present day showing a burgeoning romance.<br>
+<input type="checkbox" name="attr_Queen7"> A scene in the present day showing how you satisfy your physical desires.<br>
+
+<br><b>Crown of the Void</b><br>
+<!-- Note: -->
+<i>When you put on this Crown, mark the first empty box.</i><br>
+<input type="checkbox" name="attr_Void1"> <b>A Shadow in the Garden.</b> Hereafter, during cozy vignettes focused on you or <b>Cozy Move</b> scenes involving you, you must also narrate how dark entities subtly reveal themselves in the scene.<br>
+<input type="checkbox" name="attr_Void2"> <b>The Chariot.</b> Your <b>Reason</b> modifier is reduced by 1 and your <b>Sensitivity</b> modifier is increased by 1.<br>
+<input type="checkbox" name="attr_Void3"> <b>The Pallid Mask.</b> Hereafter, during any intimate conversation with another character, you must make a casual reference to death, dying, the afterlife, or the End of All Things—no matter the subject at-hand.<br>
+<input type="checkbox" name="attr_Void4"> <b>The Pomegranate Kernel.</b> You gain the condition “Obsessed with the Void.” It can never be removed.<br>
+<input type="checkbox" name="attr_Void5"> <b>The Void.</b> Retire your character in a way that shows how they are lost to the Void.<br>
+
+<br><b>A Cozy Little Place</b><br>
+<!-- Note: -->
+<input type="checkbox" name="attr_cozyCheck01"><input type="text" name="attr_cozyPlace01"> <br>
+<input type="checkbox" name="attr_cozyCheck02"><input type="text" name="attr_cozyPlace02"> <br>
+<input type="checkbox" name="attr_cozyCheck03"><input type="text" name="attr_cozyPlace03"> <br>
+<input type="checkbox" name="attr_cozyCheck04"><input type="text" name="attr_cozyPlace04"> <br>
+<input type="checkbox" name="attr_cozyCheck05"><input type="text" name="attr_cozyPlace05"> <br>
+<input type="checkbox" name="attr_cozyCheck06"><input type="text" name="attr_cozyPlace06"> <br>
+<input type="checkbox" name="attr_cozyCheck07"><input type="text" name="attr_cozyPlace07"> <br>
+<input type="checkbox" name="attr_cozyCheck08"><input type="text" name="attr_cozyPlace08"> <br>
+<input type="checkbox" name="attr_cozyCheck09"><input type="text" name="attr_cozyPlace09"> <br>
+<input type="checkbox" name="attr_cozyCheck10"><input type="text" name="attr_cozyPlace10"> <br>
+<input type="checkbox" name="attr_cozyCheck11"><input type="text" name="attr_cozyPlace11"> <br>
+<input type="checkbox" name="attr_cozyCheck12"><input type="text" name="attr_cozyPlace12"> <br>
+<input type="checkbox" name="attr_cozyCheck13"><input type="text" name="attr_cozyPlace13"> <br>
+<input type="checkbox" name="attr_cozyCheck14"><input type="text" name="attr_cozyPlace14"> <br>
+<input type="checkbox" name="attr_cozyCheck15"><input type="text" name="attr_cozyPlace15"> <br>
+<input type="checkbox" name="attr_cozyCheck16"><input type="text" name="attr_cozyPlace16"> <br>
+<input type="checkbox" name="attr_cozyCheck17"><input type="text" name="attr_cozyPlace17"> <br>
+<input type="checkbox" name="attr_cozyCheck18"><input type="text" name="attr_cozyPlace18"> <br>
+<input type="checkbox" name="attr_cozyCheck19"><input type="text" name="attr_cozyPlace19"> <br>
+<input type="checkbox" name="attr_cozyCheck20"><input type="text" name="attr_cozyPlace20"> <br>
